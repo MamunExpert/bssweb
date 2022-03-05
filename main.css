@@ -43,29 +43,6 @@
     height: 80%;
 }
 
-.img2 img{
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    right: 150px;
-    vertical-align: middle;
-}
-
-.wer{
-    margin-left: 100px;
-    width: 600px;
-    height: 300px;
-    text-align: center;
-}
-
-.wer p{
-    text-align: justify;
-}
-
-.wer h1{
-    font-size: 80px;
-    color:darkblue;
-}
 
 .stext{
     width: 200px;
