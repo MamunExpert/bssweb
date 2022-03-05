@@ -40,13 +40,30 @@
 
 .slider img{
     width: 100%;
-    height: 90%;
+    height: 80%;
 }
 
 .img2 img{
-    margin: 20px 0px 0px 20px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 150px;
+    vertical-align: middle;
 }
 
 .wer{
-    background-color: aquamarines;
+    margin-left: 100px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+
+}
+
+.wer p{
+    text-align: justify;
+}
+
+.wer h1{
+    font-size: 80px;
+    color:darkblue;
 }
