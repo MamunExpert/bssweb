@@ -1,0 +1,52 @@
+.navb{
+    width: 100%;
+    
+}
+
+.navb ul li{
+    margin-left: 30%;
+
+}
+
+.navb ul li a{
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    font-size: larger;
+}
+
+.navb ul li a:hover{
+    background-color:red;
+    color: white;
+    border-color: aqua;
+    border-radius: 2px;
+}
+
+.navb ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    list-style-type: none;
+    display: block;
+}
+
+.hireme a{
+    overflow: hidden;
+    color: yellow;
+    background-color: black;
+    border: 3px blue;
+}
+
+.slider img{
+    width: 100%;
+    height: 90%;
+}
+
+.img2 img{
+    margin: 20px 0px 0px 20px;
+}
+
+.wer{
+    background-color: aquamarines;
+}
