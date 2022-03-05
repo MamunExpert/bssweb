@@ -31,26 +31,18 @@
     display: block;
 }
 
-.hireme a{
-    overflow: hidden;
-    color: yellow;
-    background-color: black;
-    border: 3px blue;
-}
-
 .slider img{
     width: 100%;
     height: 80%;
 }
 
-
 .stext{
     width: 200px;
+    height: 400px;
     background-color: black;
     color: white;
     text-align: center;
     padding: 5px;
-    border: 1px black;
     border-radius: 30px;
     margin: 20px;
     float: left;
@@ -60,9 +52,17 @@
     width: 180px;
     height: 200px;
 }
-.services{
-    margin-left: 270px;
+.products{
+    width: 100%;
+    height: 120px;
+    margin-left: 290px;
     margin-top: 20px;
+
+}
+
+.stext:hover{
+    background-color: white;
+    color: black;
 }
 
 .head1{
@@ -70,5 +70,79 @@
     color: blue;
     font-size: 20px;
     position: relative;
-    left: -150px;
+    right: 300px;
+}
+
+.services{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.servce{
+    width: 280px;
+    height: 400px;
+    float: left;
+    border: 5px solid blue;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.servce:hover{
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}
+
+
+.shead{
+    margin-top: 500px;
+    margin-left: 550px;
+
+}
+
+
+
+
+
+
+
+.utext{
+    width: 200px;
+    height: 420px;
+    background-color:aqua;
+    color:blue;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.utext img{
+    width: 180px;
+    height: 200px;
+}
+.upcome{
+    width: 100%;
+    height: 550px;
+    margin-left: 200px;
+}
+
+.utext:hover{
+    background-color: white;
+    color: black;
+}
+
+.head2{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    position: relative;
+    left: -180px;
 }
