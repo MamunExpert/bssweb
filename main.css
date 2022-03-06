@@ -1,11 +1,10 @@
 .navb{
     width: 100%;
-    
+
 }
 
 .navb ul li{
     margin-left: 30%;
-
 }
 
 .navb ul li a{
@@ -36,9 +35,36 @@
     height: 80%;
 }
 
+.web-head{
+    width: 400px;
+    position: absolute;
+    top: 320px;
+    right: 100px;
+}
+
+.order-btn{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 10px
+}
+
+.order-btn:hover{
+    background-color: orange;
+    color: black;
+    transition: .5s;
+}
+
+
+
+    /* Latest Product */
+
 .stext{
     width: 200px;
-    height: 400px;
+    height: 450px;
     background-color: black;
     color: white;
     text-align: center;
@@ -57,13 +83,17 @@
     height: 120px;
     margin-left: 290px;
     margin-top: 20px;
-
 }
 
 .stext:hover{
     background-color: white;
     color: black;
+    border: 3px solid blue;
 }
+
+
+
+    /* Our Services */
 
 .head1{
     text-align: center;
@@ -98,22 +128,19 @@
     margin: 10px;
 }
 
-
 .shead{
     margin-top: 500px;
     margin-left: 550px;
-
 }
 
 
 
-
-
+    /* Upcoming Product */
 
 
 .utext{
     width: 200px;
-    height: 420px;
+    height: 450px;
     background-color:aqua;
     color:blue;
     text-align: center;
@@ -128,9 +155,11 @@
     width: 180px;
     height: 200px;
 }
+
+
 .upcome{
     width: 100%;
-    height: 550px;
+    height: 650px;
     margin-left: 200px;
 }
 
@@ -150,6 +179,8 @@
 
 
 
+    /* Contact Us */
+
 .kontakt{
     background-color: rgb(2, 0, 37);
     text-align: center;
@@ -159,7 +190,7 @@
     border: 10px;
     border-color: yellow;
     border-radius: 20px;
-    height: 380px;
+    height: 400px;
 }
 
 .kontakt textarea{
@@ -195,11 +226,15 @@
 }
 
 
+
+    /* Footer */
+
 .bottom{
     background-color: rgb(1, 0, 14);
     width: 100%;
-    height: 90px;
+    height: 108px;
     border-radius: 50px;
+    padding-top: 10px;
 }
 
 .bottom h4 a{
